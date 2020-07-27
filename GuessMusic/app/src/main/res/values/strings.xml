@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">GuessMusic</string>
+    <string name="defeat">您已击败</string>
+    <string name="answer_right">答案正确</string>
+    <string name="reward">奖励：</string>
+    <string name="tip">提示</string>
+</resources>

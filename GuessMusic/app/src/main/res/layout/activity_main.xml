@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.zongzhaopeng.guessmusic.MainActivity">
+
+    <!-- Frame 1 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/index_background"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <!-- Top bar -->
+        <include layout="@layout/top_bar" />
+        <!--disk layout-->
+        <include layout="@layout/disk_layout"/>
+        <!--word select-->
+        <include layout="@layout/word_select"/>
+
+    </LinearLayout>
+
+    <!-- floating button-->
+    <include layout="@layout/float_buttons"/>
+
+    <!--answer right-->
+    <include layout="@layout/answer_right"/>
+</FrameLayout>

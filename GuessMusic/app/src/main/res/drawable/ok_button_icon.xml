@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- locate in dialog_view.xml-->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true" android:drawable="@drawable/tip_ok_sel" />
+    <item android:drawable="@drawable/tip_ok" />
+</selector>
