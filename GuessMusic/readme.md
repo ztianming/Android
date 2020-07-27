@@ -4,3 +4,4 @@
 sdk版本：  
  compileSdkVersion 23  
  buildToolsVersion "23.0.3"  
+ minSdkVersion 15
